@@ -1,0 +1,1 @@
+window.onload = () => document.querySelector("#myName").innerHTML(`My name is Oyewumi Ola`);
