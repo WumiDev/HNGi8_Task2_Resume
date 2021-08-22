@@ -66,12 +66,13 @@ article h3 {
     text-align: center;    
 }
 
-.profile, .skills, .experience, .courses, .education, .sponsors, .languages {
+.profile, .skills, .experience, .courses, .portfolio, .sponsors, .languages {
     margin: 1.5em;
 }
 
-.profile p {
+.profile p, .portfolio p {
     text-align: justify;
+    line-height: 1.5em;
 }
 
 span.dark-dot {
@@ -101,6 +102,13 @@ ul li {
     margin-top: .7em;
     list-style: none;
     font-size: 1.1rem;
+}
+
+a {
+    text-decoration: none;
+    color: royalblue;
+    font-size: 1em;
+    padding: 0.3em;
 }
 
 ul li a {
